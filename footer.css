@@ -22,6 +22,10 @@ footer {
     width: 40vw;
 }
 
+.footer-menu {
+    display:flex;
+}
+
 .about-us h3 {
     font-size: 3rem;
     
