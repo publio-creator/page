@@ -1,0 +1,72 @@
+footer {
+    display: flex;
+    flex-direction: column;
+
+    background: #484951;
+    padding: 8rem 5rem 0 5rem;
+
+    height: 40rem;
+
+    border-radius: 20px 0 0 20px;
+
+    position: absolute;
+
+    bottom: 5rem;
+    right: 0;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.about-us h3 {
+    font-size: 3rem;
+    
+    color: #fff;
+}
+
+
+ul {
+    list-style: none;
+    margin-top: 4rem;
+}
+
+li {
+    margin-top: 1rem;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 1.4rem;
+
+    color: #fff;
+}
+
+.copy {
+    color: #fff;
+}
+
+.contact {
+    align-self: flex-end;
+    justify-self: flex-end;
+
+
+
+    margin-top: 5rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact ul {
+    display: flex;
+}
+
+.contact ul li a {
+    margin-left: 2rem;
+}

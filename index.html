@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="mobile.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body onload="getLocation()">
+    <div class="form-container">
+        <form method="GET" target="_BLANK" action="mailto:dougsilva821@gmail.com">
+            <h1>Formulário de Publicidade</h1>
+            <fieldset id="insta-field">
+                <label id="username" for="name">
+                    Usuário
+                    <input id="name" type="text" name="username" placeholder="Seu @ no instagram">
+                </label>
+                <div id="radio-buttons">
+                    Administração da página
+                    <label id="administrator" for="admin">
+                        <input type="radio" name="admin" id="admin">
+                        Sou o admin da página
+                    </label>
+                    <label id="not-administrator" for="not-admin">
+                        <input type="radio" name="admin" id="not-admin">
+                        Não sou o admin da página
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset id="about">
+                <label id="styles" for="motive">
+                    <p>Quais motivos levaram a criação da página?</p>
+                    <textarea name="motive" class="text-area-styles" id="motive" cols="30" rows="10"></textarea>
+                </label>
+                <label id="styles" for="motive-name">
+                    <p>Porquê a página tem esse nome? O que ele significa pra você?</p>
+                    <textarea name="motive-name" class="text-area-styles" id="motive-name" cols="30"
+                        rows="10"></textarea>
+                </label>
+                <label id="styles" for="future">
+                    <p>Como você vê a página em 5 anos?</p>
+                    <textarea name="future" class="text-area-styles" id="future" cols="30" rows="10"></textarea>
+                </label>
+                <label id="styles" for="be-future">
+                    <p>A página pode ser outra coisa no futuro? Se sim, o que seria?</p>
+                    <textarea name="be-future" class="text-area-styles" id="be-future" cols="30" rows="10"></textarea>
+                </label>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="img-container">
+        <img src="undraw_Outer_space_drqu.svg" alt="Launch Publi">
+    </div>
+    <footer>
+        <div class="about-us">
+            <h3>Publio</h3>
+            <div class="footer-menu">
+
+                <ul>
+                    <li><a href="#">Plataforma</a></li>
+                    <li><a href="#">Central de Ajuda</a></li>
+                    <li><a href="#">Segurança</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Companhia</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Carreiras</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="copy">
+                &copy;
+                Publio Software, Inc
+            </div>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
+<!-- 
+document.getElementById('contatoForm').addEventListener('submit', function () {
+    var nome = this.querySelector('input[name=nome]'), nome = nome.value;
+    var email = this.querySelector('input[name=email]'), email = email.value;
+    var texto = 'Olá destinatário, \nMeu nome é '+ nome +' e meu email é '+ email;
+    this.querySelector('input[name=Body]').setAttribute('value', texto);
+});
+
+
+function sendMail() {
+    var link = "mailto:me@example.com"
+             + "?cc=myCCaddress@example.com"
+             + "&subject=" + escape("This is my subject")
+             + "&body=" + escape(document.getElementById('myText').value)
+    ;
+
+    window.location.href = link;
+} -->

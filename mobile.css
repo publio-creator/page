@@ -1,0 +1,213 @@
+
+@media (max-width: 400px) {
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+
+    .img-container {
+        position: absolute;
+        display: none;
+    }
+
+
+
+    /* mobile Styles */
+
+    html {
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        box-sizing: border-box;
+    }
+
+    form {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0;
+        width: 100%;
+        height: 100%;
+
+        margin: 3rem 0;
+        padding: 0 2rem;
+    }
+
+    form h1 {
+        font-size: 2.4rem;
+        padding: 2rem 1rem;
+        max-width: 250px;
+
+        text-align: center;
+    }
+
+    #insta-field {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    #insta-field #username {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    #username #name {
+        margin-top: 0.8rem;
+        padding: 0.8rem;
+    }
+
+    #radio-buttons {
+        margin: 1rem 0;
+        font-size: 1.2rem;
+    }
+
+    #about {
+        width: 100%;
+        margin-top: 3rem;
+        padding: 0;
+    }
+
+    #administrator, #not-administrator {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    #about #styles p {
+        width: 255px;
+        font-size: 1.2rem;
+        padding-bottom: 1rem;
+    }
+    
+    #about #styles .text-area-styles {
+    
+        width: 255px;
+    }
+    
+    button {        
+        margin: 2rem 0;
+        padding: 1.2rem 3.6rem;
+        
+        font-size: 1.2rem;
+    }
+
+    footer {
+        position: initial;
+
+        border-radius: 20px 20px 0 0;
+
+        height: 20rem;
+        width: 100vw;
+    }
+    
+    .about-us {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-us h3 {
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .footer-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+        margin-top: 2rem;
+
+        padding: 0 4rem;
+    }
+
+    .about-us ul {
+        height: 100px;
+        max-width: 75px;
+    }
+    
+    li {
+        margin-top: 0.8rem;
+    }
+    
+    ul li a {
+        font-size: 1rem;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+    
+    
+    
+        margin-top: 3rem;
+        width: 100%;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .contact ul {
+        display: flex;
+    }
+    
+    .contact ul li a {
+        margin-left: 1rem;
+    }
+    
+}
